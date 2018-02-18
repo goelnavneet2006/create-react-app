@@ -1,0 +1,63 @@
+.inputKey {
+    display: inline-block;
+    margin: 3px;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    background: #069da2;
+    width: 40px;
+    cursor: pointer;
+    user-select: none;
+ }
+
+ .inputKey:hover {
+    background: #05e9f1;
+ }   
+ 
+ .inputKey:active {
+    background: #06f6ff;
+ } 
+
+ .highlightedInputKey,
+ .highlightedInputKey:hover,
+ .highlightedInputKey:active {
+     background: #d0d007;
+ }
+
+ .userInput {
+    display: inline-block;
+    margin: 3px;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    background: #05b906;
+    width: 40px;
+    cursor: pointer;
+    user-select: none;
+ }
+
+ .emptyUserInput {
+    display: inline-block;
+    margin: 3px;
+    font-size: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    background: #e04040;
+    width: 40px;
+    cursor: pointer;
+    user-select: none;
+ }
+
+ dd, ul {
+     margin-left: 0;
+     padding-left: 0;
+ }
+
+ .remainingLives{
+    background: #d2ac10;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+
