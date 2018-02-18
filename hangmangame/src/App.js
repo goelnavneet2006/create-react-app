@@ -14,12 +14,12 @@ class App extends Component {
       gameWon: false,
       gameOver: false,
       allowedQuestions: [
-        { "Silicon Valley state": "california" },
-        { "Country with most population": "China" },
-        { "Author homecountry": "india" },
-        { "Author resident country": "usa" },
-        { "Diet abstaining from animal products": "vegan" },
-        { "What everyone wants": "peace" }
+        { "Silicon Valley State": "california" },
+        { "Country With Most Population": "China" },
+        { "Author Homecountry": "india" },
+        { "Author Resident Country": "usa" },
+        { "Diet Abstaining From Animal Products": "vegan" },
+        { "What Everyone Wants": "peace" }
       ],
       selectedQuestionIndex: 0
     };
